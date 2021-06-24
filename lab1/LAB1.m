@@ -103,7 +103,6 @@ notes_seq=[mi;mi;mi;do2;mi;sol2;do;sol;mi;la;si;la;sol;mi;sol;la;
     sol;mi;do;re;si;sol;fa2;fa;re2;mi;sol;la;do;la;do;re;sol;fa2;
     fa;re2;mi;do;do;do];
 
-disp("qqq")
 for n=1:size(notes_seq,1)   %For each note(row) in notes_seq
     sound(notes_seq(n,:),Fs)    %produce note
     pause(0.4) 
